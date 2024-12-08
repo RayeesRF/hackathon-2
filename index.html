@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hackathon-2</title>
+    <link rel="stylesheet" href="./src/input.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Markazi+Text:wght@400..700&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="flex">
+      <!-- This is the main flex division having three sections -->
+      <section class="hidden sm:block w-[20%] h-screen border-r">
+        <div
+          class="flex items-center justify-between border mx-2 mt-2 px-3 py-2 rounded-lg border-slate-200 mb-3 hover:cursor-pointer"
+        >
+          <div class="flex gap-3 items-center justify-center">
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/156/156318.png"
+              class="w-4"
+            />
+            <p class="text-[15px]">Alice Koch</p>
+          </div>
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/9053/9053032.png"
+            class="h-4"
+          />
+        </div>
+        <hr />
+        <!-- Inbox here -->
+        <div
+          class="flex items-center justify-between bg-neutral-700 mx-2 mt-2 px-3 py-2 rounded-[10px] text-white hover:cursor-pointer"
+        >
+          <div class="flex gap-3 items-center justify-center">
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/1519/1519743.png"
+              class="w-4"
+            />
+            <p class="font-medium text-[15px]">Inbox</p>
+          </div>
+          <p class="font-medium text-[13px]">128</p>
+        </div>
+        <!-- Draft here -->
+        <div
+          class="flex items-center justify-between mx-2 mt-2 px-3 py-2 rounded-lg mb-1 hover:cursor-pointer hover:bg-neutral-100"
+        >
+          <div class="flex gap-3 items-center justify-center">
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/10561/10561557.png"
+              class="w-4"
+            />
+            <p class="font-medium text-[15px]">Draft</p>
+          </div>
+          <p class="font-medium text-[13px]">9</p>
+        </div>
+        <!-- Sent Here -->
+        <div
+          class="flex items-center justify-between mx-2 mt-2 px-3 py-2 rounded-lg mb-1 hover:cursor-pointer hover:bg-neutral-100"
+        >
+          <div class="flex gap-3 items-center justify-center">
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/6797/6797518.png"
+              class="w-4"
+            />
+            <p class="font-medium text-[15px]">Sent</p>
+          </div>
+        </div>
+        <!-- Junk Here -->
+        <div
+          class="flex items-center justify-between mx-2 mt-2 px-3 py-2 rounded-lg mb-1 hover:cursor-pointer hover:bg-neutral-100"
+        >
+          <div class="flex gap-3 items-center justify-center">
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/10322/10322491.png"
+              class="w-4"
+            />
+            <p class="font-medium text-[15px]">Junk</p>
+          </div>
+          <p class="font-medium text-[13px]">23</p>
+        </div>
+        <!-- Trash Here -->
+        <div
+          class="flex items-center justify-between mx-2 mt-2 px-3 py-2 rounded-lg mb-1 hover:cursor-pointer hover:bg-neutral-100"
+        >
+          <div class="flex gap-3 items-center justify-center">
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/3096/3096673.png"
+              class="w-4"
+            />
+            <p class="font-medium text-[15px]">Trash</p>
+          </div>
+        </div>
+        <!-- Archieve here -->
+        <div
+          class="flex items-center justify-between mx-2 mt-2 px-3 py-2 rounded-lg mb-1 hover:cursor-pointer hover:bg-neutral-100"
+        >
+          <div class="flex gap-3 items-center justify-center">
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/7650/7650382.png"
+              class="w-4"
+            />
+            <p class="font-medium text-[15px]">Archive</p>
+          </div>
+        </div>
+        <hr />
+        <!-- Social Here -->
+        <div
+          class="flex items-center justify-between mx-2 mt-2 px-3 py-2 rounded-lg mb-1 hover:cursor-pointer hover:bg-neutral-100"
+        >
+          <div class="flex gap-3 items-center justify-center">
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/511/511587.png"
+              class="w-4"
+            />
+            <p class="font-medium text-[15px]">Social</p>
+          </div>
+          <p class="font-medium text-[13px]">972</p>
+        </div>
+        <!-- Updates here -->
+        <div
+          class="flex items-center justify-between mx-2 mt-2 px-3 py-2 rounded-lg mb-1 hover:cursor-pointer hover:bg-neutral-100"
+        >
+          <div class="flex gap-3 items-center justify-center">
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/17807/17807707.png"
+              class="w-4"
+            />
+            <p class="font-medium text-[15px]">Updates</p>
+          </div>
+          <p class="font-medium text-[13px]">342</p>
+        </div>
+        <!-- Forums here -->
+        <div
+          class="flex items-center justify-between mx-2 mt-2 px-3 py-2 rounded-lg mb-1 hover:cursor-pointer hover:bg-neutral-100"
+        >
+          <div class="flex gap-3 items-center justify-center">
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/2704/2704794.png"
+              class="w-4"
+            />
+            <p class="font-medium text-[15px]">Forums</p>
+          </div>
+          <p class="font-medium text-[13px]">128</p>
+        </div>
+        <!-- Shopping Here -->
+        <div
+          class="flex items-center justify-between mx-2 mt-2 px-3 py-2 rounded-lg mb-1 hover:cursor-pointer hover:bg-neutral-100"
+        >
+          <div class="flex gap-3 items-center justify-center">
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/8385/8385873.png"
+              class="w-4"
+            />
+            <p class="font-medium text-[15px]">Shopping</p>
+          </div>
+          <p class="font-medium text-[13px]">8</p>
+        </div>
+        <!-- Promotions Here -->
+        <div
+          class="flex items-center justify-between mx-2 mt-2 px-3 py-2 rounded-lg mb-1 hover:cursor-pointer hover:bg-neutral-100"
+        >
+          <div class="flex gap-3 items-center justify-center">
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/7650/7650382.png"
+              class="w-4"
+            />
+            <p class="font-medium text-[15px]">Promotions</p>
+          </div>
+          <p class="font-medium text-[13px]">21</p>
+        </div>
+        <!-- End of 1st section -->
+      </section>
+      <!-- 2nd Section here -->
+      <section class=" hidden sm:block  sm:w-[30%] sm:h-screen border-r overflow-hidden">
+        <div
+          class="sticky flex items-center justify-between mx-2 mt-2 px-4 py-1 mb-3"
+        >
+          <h1 class="text-2xl font-bold">Inbox</h1>
+          <div
+            class="flex gap-2 items-center bg-neutral-100 px-2 py-[0.7%] rounded-md"
+          >
+            <p class="text-[13px] font-medium bg-white px-3 py-1 rounded-md">
+              All Mail
+            </p>
+            <p class="text-[13px] font-medium text-zinc-500">Unread</p>
+          </div>
+        </div>
+        <hr />
+        <!-- Search bar here -->
+        <div
+          class="sticky flex items-center justify-between border mx-4 mt-2 px-3 py-2 rounded-lg border-slate-200 mb-3 hover:cursor-pointer"
+        >
+          <div class="flex gap-2 items-center justify-center">
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/17216/17216943.png"
+              class="w-4"
+            />
+            <p class="text-[14px] text-zinc-500">Search</p>
+          </div>
+        </div>
+        <!-- Inbox divisions here -->
+        <div class="overflow-y-scroll [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:bg-gray-300 h-[79%] px-1">
+            <div
+              class="mx-2 mt-2 px-3 py-2 rounded-lg mb-1 border border-slate-200 bg-neutral-50 hover:cursor-pointer"
+            >
+              <div class="flex items-center justify-between">
+                <p class="font-medium text-[14px]">William Smith</p>
+                <p class="font-medium text-[11px] text-zinc-800">
+                  about 1 year ago
+                </p>
+              </div>
+              <p class="text-[12px] font-medium mt-1 mb-1">Meeeting Tomorrow</p>
+              <p class="text-[12.5px] text-zinc-500 tracking-wide">
+                Hi, let's have a meeting tomorrow to discuss the project. I've
+                been reviewing project details and have some ideas I'd like...
+              </p>
+              <div class="mt-2 flex gap-3 items-center">
+                <p class="text-xs font-medium">meeting</p>
+                <p
+                  class="text-xs font-medium bg-black text-white py-1 px-3 rounded-lg hover:bg-zinc-700"
+                >
+                  work
+                </p>
+                <p class="text-xs font-medium">important</p>
+              </div>
+            </div>
+            <!-- End of 1st div here -->
+            <div
+              class="mx-2 mt-2 px-3 py-2 rounded-lg mb-1 border border-slate-200 hover:bg-neutral-100 hover:cursor-pointer"
+            >
+              <div class="flex items-center justify-between">
+                <p class="font-medium text-[14px]">Alice Smith</p>
+                <p class="font-medium text-[11px] text-zinc-600">
+                  about 1 year ago
+                </p>
+              </div>
+              <p class="text-[12px] font-medium mt-1 mb-1">
+                Re: Project Update
+              </p>
+              <p class="text-[12.5px] text-zinc-500 tracking-wide">
+                Thank you for the project update. It looks great! I've gone
+                through report, and the progress is impressive. The team...
+              </p>
+              <div class="mt-2 flex gap-3 items-center">
+                <p
+                  class="text-xs font-medium bg-black text-white py-1 px-3 rounded-lg hover:bg-zinc-700"
+                >
+                  work
+                </p>
+                <p class="text-xs font-medium">important</p>
+              </div>
+            </div>
+            <div
+              class="mx-2 mt-2 px-3 py-2 rounded-lg mb-1 border border-slate-200 hover:bg-neutral-100 hover:cursor-pointer"
+            >
+              <div class="flex items-center justify-between">
+                <p class="font-medium text-[14px]">Bob Johnson</p>
+                <p class="font-medium text-[11px] text-zinc-600">
+                  over 1 year ago
+                </p>
+              </div>
+              <p class="text-[12px] font-medium mt-1 mb-1">
+                Weekend plans
+              </p>
+              <p class="text-[12.5px] text-zinc-500 tracking-wide">
+                Any plans for the Weekend? I was thinking of going hiking to the nearby mountains. It's been a while since we caught up...
+              </p>
+                <p class="inline-block mt-1 px-2 py-1 text-xs font-medium rounded-md border border-neutral-400">personal</p>
+            
+            </div>
+              <!-- emily -->
+            <div
+              class="mx-2 mt-2 px-3 py-2 rounded-lg mb-1 border border-slate-200 hover:bg-neutral-100 hover:cursor-pointer"
+            >
+              <div class="flex items-center justify-between">
+              <div class="flex items-center justify-between gap-2">
+                <p class="font-medium text-[14px]">Emily Davis</p>
+                <p class="text-[8px]">🔵</p>
+              </div>
+                <p class="font-medium text-[11px] text-zinc-600">
+                  about 1 year ago
+                </p>
+              </div>
+              <p class="text-[12px] font-medium mt-1 mb-1">
+                Re: Question about budget
+              </p>
+              <p class="text-[12.5px] text-zinc-500 tracking-wide">
+                I have a question about budget for the upcoming project. It seems like there is a discrepency in the allocation of...
+              </p>
+              <div class="mt-2 flex gap-3 items-center">
+                <p
+                  class="text-xs font-medium bg-black text-white py-1 px-3 rounded-lg hover:bg-zinc-700"
+                >
+                  work
+                </p>
+                <p class="text-xs font-medium">budget</p>
+              </div>
+            </div>
+
+            <div
+              class="mx-2 mt-2 px-3 py-2 rounded-lg mb-1 border border-slate-200 hover:bg-neutral-100 hover:cursor-pointer"
+            >
+              <div class="flex items-center justify-between">
+              <div class="flex items-center justify-between gap-2">
+                <p class="font-medium text-[14px]">Michael Wilson</p>
+                <p class="text-[8px]">🔵</p>
+              </div>
+                <p class="font-medium text-[11px] text-zinc-600">
+                  about 1 year ago
+                </p>
+              </div>
+              <p class="text-[12px] font-medium mt-1 mb-1">
+                Important Announcement
+              </p>
+              <p class="text-[12.5px] text-zinc-500 tracking-wide">
+                I have an important announcement to make during out team meeting.  It pertains to a specific strategic shift in our....
+              </p>
+              <div class="mt-2 flex gap-3 items-center">
+                <p class="text-xs font-medium">meeting</p>
+                <p
+                  class="text-xs font-medium bg-black text-white py-1 px-3 rounded-lg hover:bg-zinc-700"
+                >
+                  work
+                </p>
+                <p class="text-xs font-medium">important</p>
+              </div>
+            </div>
+            <!-- another -->
+            <div
+              class="mx-2 mt-2 px-3 py-2 rounded-lg mb-1 border border-slate-200 hover:bg-neutral-100 hover:cursor-pointer"
+            >
+              <div class="flex items-center justify-between">
+                <p class="font-medium text-[14px]">Sarah Brown</p>
+                <p class="font-medium text-[11px] text-zinc-600">
+                  almost 2 years ago
+                </p>
+              </div>
+              <p class="text-[12px] font-medium mt-1 mb-1">
+                Re: Feedback on proposal
+              </p>
+              <p class="text-[12.5px] text-zinc-500 tracking-wide">
+                Thank you for the Feedback on the proposal. It looks great! I'm pleased to hear that you found it promising...
+              </p>
+              <div class="mt-2 flex gap-3 items-center">
+                <p
+                  class="text-xs font-medium bg-black text-white py-1 px-3 rounded-lg hover:bg-zinc-700"
+                >
+                  work
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="mx-2 mt-2 px-3 py-2 rounded-lg mb-1 border border-slate-200 hover:bg-neutral-100 hover:cursor-pointer"
+            >
+              <div class="flex items-center justify-between">
+              <div class="flex items-center justify-between gap-2">
+                <p class="font-medium text-[14px]">David Lee</p>
+                <p class="text-[8px]">🔵</p>
+              </div>
+                <p class="font-medium text-[11px] text-zinc-600">
+                  almost 2 years ago
+                </p>
+              </div>
+              <p class="text-[12px] font-medium mt-1 mb-1">
+                New project Idea
+              </p>
+              <p class="text-[12.5px] text-zinc-500 tracking-wide">
+                I have an existing new project idea to discuss with you. It involves in expanding our services to target a niche.....
+              </p>
+              <div class="mt-2 flex gap-3 items-center">
+                <p class="text-xs font-medium">meeting</p>
+                <p
+                  class="text-xs font-medium bg-black text-white py-1 px-3 rounded-lg hover:bg-zinc-700"
+                >
+                  work
+                </p>
+                <p class="text-xs font-medium">important</p>
+              </div>
+            </div>
+
+            <div
+              class="mx-2 mt-2 px-3 py-2 rounded-lg mb-1 border border-slate-200 hover:bg-neutral-100 hover:cursor-pointer"
+            >
+              <div class="flex items-center justify-between">
+                <p class="font-medium text-[14px]">Olivia Wilson</p>
+                <p class="font-medium text-[11px] text-zinc-600">
+                  almost 2 years ago
+                </p>
+              </div>
+              <p class="text-[12px] font-medium mt-1 mb-1">
+                Vacation Plans
+              </p>
+              <p class="text-[12.5px] text-zinc-500 tracking-wide">
+               Let's plan our Vacation for next month. What do you think? I've been thinking of visiting the Tropical Paradise.....
+              </p>
+                <p class="inline-block mt-1 px-2 py-1 text-xs font-medium rounded-md border border-neutral-400">personal</p>
+            
+            </div>
+
+            <div
+              class="mx-2 mt-2 px-3 py-2 rounded-lg mb-1 border border-slate-200 hover:bg-neutral-100 hover:cursor-pointer"
+            >
+              <div class="flex items-center justify-between">
+                <p class="font-medium text-[14px]">William Anderson</p>
+                <p class="font-medium text-[11px] text-zinc-600">
+                  almost 2 years ago
+                </p>
+              </div>
+              <p class="text-[12px] font-medium mt-1 mb-1">
+                Re: Project Launch Update
+              </p>
+              <p class="text-[12.5px] text-zinc-500 tracking-wide">
+                The product launch is on track. I'll provide an update during our call.  We've  made a quite substantial growth...
+              </p>
+              <div class="mt-2 flex gap-3 items-center">
+                <p
+                  class="text-xs font-medium bg-black text-white py-1 px-3 rounded-lg hover:bg-zinc-700"
+                >
+                  work
+                </p>
+                <p class="text-xs font-medium">important</p>
+              </div>
+            </div>
+          </div>
+          <!-- End of inbox divisons here -->
+        </div>
+        <!-- End of 2nd Section Here -->
+      </section>
+      <section class="md:w-[50%] h-screen relative sm:absolute top-0 right-0 ">
+          <div
+          class="sticky flex items-center justify-between mx-2 mt-5 px-4 py-[0.1%] mb-5"
+        >
+        <div class="flex gap-5 items-center">
+          <img
+              src="https://cdn-icons-png.flaticon.com/128/7563/7563488.png"
+              class="w-4 h-4 hover:cursor-pointer"
+            />
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/10322/10322491.png"
+              class="w-4 h-4 hover:cursor-pointer "
+            />
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/3096/3096673.png"
+              class="w-4 h-4 hover:cursor-pointer "
+            />
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/2088/2088617.png"
+              class="w-8 h-4 border-l-2 border-l-stone-400 pl-3 ml-2 hover:cursor-pointer "
+            />
+        </div>
+          <div class="flex gap-5 items-center justify-center">
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/10628/10628919.png"
+              class="w-5 h-5 hover:cursor-pointer"
+            />
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/747/747334.png"
+              class="w-4 h-4 hover:cursor-pointer"
+            />
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/3502/3502519.png"
+              class="w-4 h-4 hover:cursor-pointer"
+            />
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/7794/7794505.png"
+              class="w-8 h-5 border-l-2 border-l-stone-400 pl-3 ml-2 hover:cursor-pointer "
+            />
+          </div>
+        </div>
+        <hr />
+       <div class="flex justify-between pr-5 my-1 mb-4">
+        <div class="flex gap-3 mt-1 px-3 items-center">
+          <p class="bg-zinc-200 w-12 text-xl pt-2 rounded-full text-center h-12">ED</p>
+          <div class="">
+            <h1 class="text-lg font-medium">Emily Davis</h1>
+            <p class="text-[13px]">
+              <span class="font-medium">Re:</span> Question about budget
+            </p>
+            <p class="text-[13px]">
+              <span class="font-medium">Reply-To:</span> emilydavis@example.com
+            </p>
+          </div>
+        </div>
+          <p class="font-medium text-[14px] text-zinc-500 mt-2">
+            Mar 25, 2023, 1:15:00 PM
+          </p>
+        <!-- info div here -->
+       </div>
+       <hr>
+       <p class="ml-5 mr-16 mt-7 text-[1.015vmax]">
+        I have a question about the budget for the upcoming project. It seems like there's a discrepancy in the allocation of resources. <br><br>
+        I've reviewed the budget report and identified a few areas where we might be able to optimize our spending without compromising the project's quality. <br><br>
+        I've attached a detailed analysis for your reference. Let's discuss this further in our next meeting. <br><br>
+        Thanks, Emily
+       </p>
+
+       <br><br><br>
+       <hr>
+
+       <textarea  class="w-[630px] h-[100px] px-2 ml-4 mt-2 rounded-lg mr-6 pt-4 focus:outline-none ring-1 hover:ring-slate-500" placeholder="Reply Emily Davis..."></textarea>
+       <div class="flex mt-2 ml-5 mr-9 items-center justify-between">
+        <div class="flex items-center gap-2 justify-center">
+          <img src="https://cdn-icons-png.flaticon.com/128/5683/5683501.png" class="h-9 hover:cursor-pointer">
+          <p class="text-[13.5px] text-zinc-500">Mute this thread</p>
+        </div>
+        <button class="bg-black font-medium rounded-lg px-3 py-1 text-white">Send</button>
+       </div>
+
+
+      </section>
+      <!-- End of main felx div here -->
+       
+    </div>
+  </body>
+</html>
